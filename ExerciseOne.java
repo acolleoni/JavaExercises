@@ -88,7 +88,7 @@ public class ExerciseOne {
 
         System.out.println("\nI set one of the assigned instances to null.");
         instance2 = null;
-        System.out.println("\nNow three of them are eligible for garbage collection, so I explicitly invoke GC.");
+        System.out.println("\nNow two of them are eligible for garbage collection, so I explicitly invoke GC.");
         System.gc();
         System.out.println("I wait 2 seconds to let the cleaning thread do its work.\n");
         Thread.sleep(2000);
